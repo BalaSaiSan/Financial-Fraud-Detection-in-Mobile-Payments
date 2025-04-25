@@ -52,6 +52,17 @@ This project addresses the urgent need for reliable fraud detection in mobile tr
 | Ensemble / Stacking        | Combined predictions from top-performing models         |
 | Others Tested              | SVM, KNN, Naive Bayes, Extra Trees, MLP, AdaBoost    
 
+## Visuals
+<img width="453" alt="image" src="https://github.com/user-attachments/assets/d3376d93-fea6-4d4c-b4fd-95df91714daa" />
+ ## 🧮 Confusion Matrix – Neural Network (Best Model)
+This matrix shows the classification performance of your tuned Sequential Neural Network, specifically how well it identifies fraud:
+✅ True Positives (Fraud detected): 45
+❌ False Positives (Non-fraud flagged as fraud): 3,787
+✅ True Negatives: 16,214
+❌ False Negatives (Fraud missed): 4
+This matrix emphasizes the model's high recall and minimal missed fraud cases — a key achievement!
+
+
 ## 📈 Performance Summary
 
 - **🏆 Best Model**: Fine-tuned Sequential Neural Network
